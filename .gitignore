@@ -33,3 +33,5 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+# Vidéo iStock (aperçu non libre de droits), gardée en local uniquement
+coffrets-gourmands/videos/preparation-coffret.mp4
