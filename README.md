@@ -4,6 +4,8 @@ Site vitrine en HTML et CSS pour **Les Coffrets Gourmands**, l'activité de vent
 
 Projet réalisé en **BTS SIO 1re année**, bloc 1 « Support et mise à disposition des services informatiques », mission 2 : développer la présence en ligne de l'organisation cliente.
 
+**Site en ligne : https://superlative-centaur-6ce99f.netlify.app**
+
 ![Page d'accueil](docs/captures/index-ordinateur.jpg)
 
 ## Le site
