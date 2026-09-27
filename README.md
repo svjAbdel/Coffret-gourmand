@@ -9,6 +9,7 @@ BTS SIO 1re année, bloc 1.
 
 ## Dossier
 
+- [`docs/TD_Coffrets_Gourmands_complete.docx`](docs/TD_Coffrets_Gourmands_complete.docx) : le sujet original du TD, complété (réponses et tableaux remplis)
 - [`docs/mission-1.md`](docs/mission-1.md) : activité introductive, inventaire du matériel, comparatif de deux solutions à 1 200 € HT
 - [`docs/mission-2.md`](docs/mission-2.md) : recueil des besoins, arborescence, justification des choix, mise en ligne, tests, limites
 
