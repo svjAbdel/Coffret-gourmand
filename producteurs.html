@@ -1,113 +1,151 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Producteurs partenaires | Les Coffrets Gourmands</title>
-  <meta name="description" content="Les six producteurs qui fabriquent le contenu des Coffrets Gourmands&nbsp;: catégories, horaires et produits signatures.">
-  <link rel="preload" href="assets/polices/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#d7c19c">
-  <link rel="stylesheet" href="assets/style.css">
-  <link rel="stylesheet" href="assets/animations.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Producteurs partenaires | Les Coffrets Gourmands</title>
+    <meta
+      name="description"
+      content="Les six producteurs qui fabriquent le contenu des Coffrets Gourmands&nbsp;: catégories, horaires et produits signatures."
+    >
+    <link
+      rel="preload"
+      href="assets/polices/big-shoulders-display.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    >
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" >
+    <meta name="theme-color" content="#d7c19c" >
+    <link rel="stylesheet" href="assets/style.css" >
+    <link rel="stylesheet" href="assets/animations.css" >
+  </head>
+  <body>
+    <header class="entete">
+      <a class="marque" href="index.html">Les Coffrets<br>
+        Gourmands</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="coffrets.html">Nos coffrets</a></li>
+          <li><a href="producteurs.html" aria-current="page">Producteurs</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header class="entete">
-    <a class="marque" href="index.html">Les Coffrets<br> Gourmands</a>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="coffrets.html">Nos coffrets</a></li>
-        <li><a href="producteurs.html" aria-current="page">Producteurs</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <section class="intro-page">
+        <h1>Qui fait quoi</h1>
+        <p>
+          Tout ce qui entre dans un coffret vient de l’un de ces six ateliers. Je vais les voir, je
+          goûte, je repars avec des cartons. Voici leurs horaires, si vous voulez passer leur
+          acheter directement.
+        </p>
+      </section>
 
-  <main>
+      <section class="tableau">
+        <div class="defilement">
+          <table>
+            <caption>
+              Six producteurs, et les coffrets où l’on retrouve leurs produits
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Producteur</th>
+                <th scope="col">Catégorie</th>
+                <th scope="col">Horaires</th>
+                <th scope="col">Produit signature</th>
+                <th scope="col">Dans les coffrets</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Le Verger des Aulnes</th>
+                <td>Confitures</td>
+                <td>mar. au sam., 9&nbsp;h – 12&nbsp;h&nbsp;30</td>
+                <td>Confiture figue-noix</td>
+                <td>Petit Déjeuner, Goûter, Anniversaire</td>
+              </tr>
+              <tr>
+                <th scope="row">La Noisetterie Viguier</th>
+                <td>Pâtes à tartiner</td>
+                <td>sam., 8&nbsp;h – 13&nbsp;h (marché)</td>
+                <td>Pâte noisette à 60&nbsp;%</td>
+                <td>Petit Déjeuner, Goûter, Anniversaire</td>
+              </tr>
+              <tr>
+                <th scope="row">Biscuiterie Marteau</th>
+                <td>Biscuits</td>
+                <td>lun. au ven., 7&nbsp;h&nbsp;30 – 18&nbsp;h</td>
+                <td>Sablé au beurre salé</td>
+                <td>Petit Déjeuner, Goûter, Anniversaire</td>
+              </tr>
+              <tr>
+                <th scope="row">Moulin de la Brèche</th>
+                <td>Huiles et vinaigres</td>
+                <td>mer. et sam., 10&nbsp;h – 18&nbsp;h</td>
+                <td>Huile de noix pressée à froid</td>
+                <td>Déjeuner</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  Ferme Chaumette
+                  <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr>
+                </th>
+                <td>Plats cuisinés, tartinades de légumes</td>
+                <td>ven., 14&nbsp;h – 19&nbsp;h (vente à la ferme)</td>
+                <td>Lentilles vertes mijotées</td>
+                <td>Petit Déjeuner, Déjeuner</td>
+              </tr>
+              <tr>
+                <th scope="row">Comptoir Kerbrat</th>
+                <td>Thés et épices</td>
+                <td>lun. au sam., 10&nbsp;h – 19&nbsp;h</td>
+                <td>Mélange «&nbsp;Cinq baies&nbsp;»</td>
+                <td>Petit Déjeuner, Déjeuner, Goûter, Anniversaire</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <section class="intro-page">
-      <h1>Qui fait quoi</h1>
-      <p>Tout ce qui entre dans un coffret vient de l’un de ces six ateliers. Je vais les voir, je goûte, je repars avec des cartons. Voici leurs horaires, si vous voulez passer leur acheter directement.</p>
-    </section>
+      <section class="atelier">
+        <img
+          src="assets/images/verger-chaudron-1280.webp"
+          srcset="
+            assets/images/verger-chaudron-640.webp   640w,
+            assets/images/verger-chaudron-1280.webp 1280w
+          "
+          sizes="(max-width: 720px) 100vw, 55vw"
+          width="1280"
+          height="698"
+          loading="lazy"
+          decoding="async"
+          alt="Confiture de figues en train de cuire dans un chaudron en cuivre au Verger des Aulnes"
+        >
+        <div>
+          <p class="chiffre">3&nbsp;kg</p>
+          <h2>de fruits par chaudron, pas un de plus</h2>
+          <p>
+            Au Verger des Aulnes, les confitures cuisent en petites quantités dans des chaudrons en
+            cuivre. C’est plus long, mais le fruit garde sa texture&nbsp;: on reconnaît les morceaux
+            de figue sous la cuillère.
+          </p>
+          <p>
+            C’est ce genre de détail qui décide si un produit entre dans un coffret. Retrouvez la
+            confiture figue-noix dans le
+            <a href="coffrets.html#anniversaire">Coffret Anniversaire</a>.
+          </p>
+        </div>
+      </section>
+    </main>
 
-    <section class="tableau">
-      <div class="defilement">
-        <table>
-          <caption>Six producteurs, et les coffrets où l’on retrouve leurs produits</caption>
-          <thead>
-            <tr>
-              <th scope="col">Producteur</th>
-              <th scope="col">Catégorie</th>
-              <th scope="col">Horaires</th>
-              <th scope="col">Produit signature</th>
-              <th scope="col">Dans les coffrets</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Le Verger des Aulnes</th>
-              <td>Confitures</td>
-              <td>mar. au sam., 9&nbsp;h – 12&nbsp;h&nbsp;30</td>
-              <td>Confiture figue-noix</td>
-              <td>Petit Déjeuner, Goûter, Anniversaire</td>
-            </tr>
-            <tr>
-              <th scope="row">La Noisetterie Viguier</th>
-              <td>Pâtes à tartiner</td>
-              <td>sam., 8&nbsp;h – 13&nbsp;h (marché)</td>
-              <td>Pâte noisette à 60&nbsp;%</td>
-              <td>Petit Déjeuner, Goûter, Anniversaire</td>
-            </tr>
-            <tr>
-              <th scope="row">Biscuiterie Marteau</th>
-              <td>Biscuits</td>
-              <td>lun. au ven., 7&nbsp;h&nbsp;30 – 18&nbsp;h</td>
-              <td>Sablé au beurre salé</td>
-              <td>Petit Déjeuner, Goûter, Anniversaire</td>
-            </tr>
-            <tr>
-              <th scope="row">Moulin de la Brèche</th>
-              <td>Huiles et vinaigres</td>
-              <td>mer. et sam., 10&nbsp;h – 18&nbsp;h</td>
-              <td>Huile de noix pressée à froid</td>
-              <td>Déjeuner</td>
-            </tr>
-            <tr>
-              <th scope="row">Ferme Chaumette <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr></th>
-              <td>Plats cuisinés, tartinades de légumes</td>
-              <td>ven., 14&nbsp;h – 19&nbsp;h (vente à la ferme)</td>
-              <td>Lentilles vertes mijotées</td>
-              <td>Petit Déjeuner, Déjeuner</td>
-            </tr>
-            <tr>
-              <th scope="row">Comptoir Kerbrat</th>
-              <td>Thés et épices</td>
-              <td>lun. au sam., 10&nbsp;h – 19&nbsp;h</td>
-              <td>Mélange «&nbsp;Cinq baies&nbsp;»</td>
-              <td>Petit Déjeuner, Déjeuner, Goûter, Anniversaire</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section class="atelier">
-      <img src="assets/images/verger-chaudron-1280.webp" srcset="assets/images/verger-chaudron-640.webp 640w, assets/images/verger-chaudron-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 55vw" width="1280" height="698" loading="lazy" decoding="async" alt="Confiture de figues en train de cuire dans un chaudron en cuivre au Verger des Aulnes">
-      <div>
-        <p class="chiffre">3&nbsp;kg</p>
-        <h2>de fruits par chaudron, pas un de plus</h2>
-        <p>Au Verger des Aulnes, les confitures cuisent en petites quantités dans des chaudrons en cuivre. C’est plus long, mais le fruit garde sa texture&nbsp;: on reconnaît les morceaux de figue sous la cuillère.</p>
-        <p>C’est ce genre de détail qui décide si un produit entre dans un coffret. Retrouvez la confiture figue-noix dans le <a href="coffrets.html#anniversaire">Coffret Anniversaire</a>.</p>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="pied">
-    <a class="marque" href="index.html">Les Coffrets Gourmands</a>
-    <p>Charlotte Bon Goût, auto-entrepreneure.<br>Maquette réalisée en BTS SIO&nbsp;: producteurs, prix et délais fictifs.</p>
-  </footer>
-
-</body>
+    <footer class="pied">
+      <a class="marque" href="index.html">Les Coffrets Gourmands</a>
+      <p>
+        Charlotte Bon Goût, auto-entrepreneure.<br >Maquette réalisée en BTS SIO&nbsp;:
+        producteurs, prix et délais fictifs.
+      </p>
+    </footer>
+  </body>
 </html>

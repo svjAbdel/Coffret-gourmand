@@ -1,232 +1,426 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nos coffrets | Les Coffrets Gourmands</title>
-  <meta name="description" content="Le contenu détaillé des 5 coffrets&nbsp;: Petit Déjeuner, Déjeuner, Goûter, Anniversaire et Surprise. Poids, producteurs et prix.">
-  <link rel="preload" href="assets/polices/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#d7c19c">
-  <link rel="stylesheet" href="assets/style.css">
-  <link rel="stylesheet" href="assets/animations.css">
-</head>
-<body>
-
-  <header class="entete">
-    <a class="marque" href="index.html">Les Coffrets<br> Gourmands</a>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="coffrets.html" aria-current="page">Nos coffrets</a></li>
-        <li><a href="producteurs.html">Producteurs</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-
-    <section class="intro-page">
-      <h1>Les cinq coffrets</h1>
-      <p>Chaque coffret part dans une boîte en carton kraft, calée avec de la frisure de papier et fermée par une ficelle en coton. Sous chaque produit, le nom de celui ou celle qui l’a fait. Les poids sont ceux des produits, sans l’emballage.</p>
-    </section>
-
-    <div class="liste-coffrets">
-
-      <article class="coffret" id="petit-dejeuner">
-        <img src="assets/images/coffret-petit-dejeuner-1280.webp" srcset="assets/images/coffret-petit-dejeuner-640.webp 640w, assets/images/coffret-petit-dejeuner-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Petit Déjeuner&nbsp;: pot de confiture d’abricot, bocal de granola et boîte de thé noir">
-        <div>
-          <h2>Coffret Petit Déjeuner</h2>
-          <p class="pour-qui">Pour quelqu’un qui ne saute jamais le petit déjeuner, ou qui devrait arrêter.</p>
-          <p class="prix">29,00&nbsp;€</p>
-        </div>
-        <ul class="contenu">
-          <li><span>Confiture d’abricot<span class="producteur">Le Verger des Aulnes</span></span><span>250 g</span></li>
-          <li><span>Pâte à tartiner noisette<span class="producteur">La Noisetterie Viguier</span></span><span>200 g</span></li>
-          <li><span>Granola aux graines <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr><span class="producteur">Ferme Chaumette</span></span><span>300 g</span></li>
-          <li><span>Sablés au beurre salé<span class="producteur">Biscuiterie Marteau</span></span><span>150 g</span></li>
-          <li><span>Thé noir du matin<span class="producteur">Comptoir Kerbrat</span></span><span>50 g</span></li>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Nos coffrets | Les Coffrets Gourmands</title>
+    <meta
+      name="description"
+      content="Le contenu détaillé des 5 coffrets&nbsp;: Petit Déjeuner, Déjeuner, Goûter, Anniversaire et Surprise. Poids, producteurs et prix."
+    >
+    <link
+      rel="preload"
+      href="assets/polices/big-shoulders-display.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    >
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" >
+    <meta name="theme-color" content="#d7c19c" >
+    <link rel="stylesheet" href="assets/style.css" >
+    <link rel="stylesheet" href="assets/animations.css" >
+  </head>
+  <body>
+    <header class="entete">
+      <a class="marque" href="index.html">Les Coffrets<br>
+        Gourmands</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="coffrets.html" aria-current="page">Nos coffrets</a></li>
+          <li><a href="producteurs.html">Producteurs</a></li>
         </ul>
-      </article>
+      </nav>
+    </header>
 
-      <article class="coffret" id="dejeuner">
-        <img src="assets/images/coffret-dejeuner-1280.webp" srcset="assets/images/coffret-dejeuner-640.webp 640w, assets/images/coffret-dejeuner-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Déjeuner&nbsp;: bocal de lentilles, tartinade de poivrons, bouteilles d’huile de noix et de vinaigre">
-        <div>
-          <h2>Coffret Déjeuner</h2>
-          <p class="pour-qui">Un repas complet pour deux, sans passer par la cuisine. Ou presque.</p>
-          <p class="prix">39,00&nbsp;€</p>
-        </div>
-        <ul class="contenu">
-          <li><span>Lentilles vertes mijotées aux légumes <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr><span class="producteur">Ferme Chaumette</span></span><span>380 g</span></li>
-          <li><span>Tartinade de poivrons grillés<span class="producteur">Ferme Chaumette</span></span><span>180 g</span></li>
-          <li><span>Huile de noix pressée à froid<span class="producteur">Moulin de la Brèche</span></span><span>25 cl</span></li>
-          <li><span>Vinaigre de cidre<span class="producteur">Moulin de la Brèche</span></span><span>25 cl</span></li>
-          <li><span>Mélange d’épices «&nbsp;Cinq baies&nbsp;»<span class="producteur">Comptoir Kerbrat</span></span><span>40 g</span></li>
-        </ul>
-      </article>
+    <main>
+      <section class="intro-page">
+        <h1>Les cinq coffrets</h1>
+        <p>
+          Chaque coffret part dans une boîte en carton kraft, calée avec de la frisure de papier et
+          fermée par une ficelle en coton. Sous chaque produit, le nom de celui ou celle qui l’a
+          fait. Les poids sont ceux des produits, sans l’emballage.
+        </p>
+      </section>
 
-      <article class="coffret" id="gouter">
-        <img src="assets/images/coffret-gouter-1280.webp" srcset="assets/images/coffret-gouter-640.webp 640w, assets/images/coffret-gouter-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 45vw" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Goûter&nbsp;: pâte à tartiner, sablés et confiture de fraise dans de la frisure kraft">
-        <div>
-          <h2>Coffret Goûter</h2>
-          <p class="pour-qui">Pour le mercredi après-midi. Les enfants le vident en premier, les parents finissent la confiture.</p>
-          <p class="prix">24,00&nbsp;€</p>
-        </div>
-        <ul class="contenu">
-          <li><span>Pâte à tartiner noisette<span class="producteur">La Noisetterie Viguier</span></span><span>200 g</span></li>
-          <li><span>Sablés au beurre salé<span class="producteur">Biscuiterie Marteau</span></span><span>150 g</span></li>
-          <li><span>Confiture de fraise<span class="producteur">Le Verger des Aulnes</span></span><span>250 g</span></li>
-          <li><span>Infusion fruits rouges <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr><span class="producteur">Comptoir Kerbrat</span></span><span>40 g</span></li>
-        </ul>
-      </article>
+      <div class="liste-coffrets">
+        <article class="coffret" id="petit-dejeuner">
+          <img
+            src="assets/images/coffret-petit-dejeuner-1280.webp"
+            srcset="
+              assets/images/coffret-petit-dejeuner-640.webp   640w,
+              assets/images/coffret-petit-dejeuner-1280.webp 1280w
+            "
+            sizes="(max-width: 720px) 100vw, 15rem"
+            width="1280"
+            height="698"
+            loading="lazy"
+            decoding="async"
+            alt="Coffret Petit Déjeuner&nbsp;: pot de confiture d’abricot, bocal de granola et boîte de thé noir"
+          >
+          <div>
+            <h2>Coffret Petit Déjeuner</h2>
+            <p class="pour-qui">
+              Pour quelqu’un qui ne saute jamais le petit déjeuner, ou qui devrait arrêter.
+            </p>
+            <p class="prix">29,00&nbsp;€</p>
+          </div>
+          <ul class="contenu">
+            <li>
+              <span>Confiture d’abricot<span class="producteur">Le Verger des Aulnes</span></span
+              ><span>250 g</span>
+            </li>
+            <li>
+              <span
+                >Pâte à tartiner noisette<span class="producteur"
+                  >La Noisetterie Viguier</span
+                ></span
+              ><span>200 g</span>
+            </li>
+            <li>
+              <span
+                >Granola aux graines
+                <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr
+                ><span class="producteur">Ferme Chaumette</span></span
+              ><span>300 g</span>
+            </li>
+            <li>
+              <span>Sablés au beurre salé<span class="producteur">Biscuiterie Marteau</span></span
+              ><span>150 g</span>
+            </li>
+            <li>
+              <span>Thé noir du matin<span class="producteur">Comptoir Kerbrat</span></span
+              ><span>50 g</span>
+            </li>
+          </ul>
+        </article>
 
-      <article class="coffret" id="anniversaire">
-        <img src="assets/images/coffret-anniversaire-1280.webp" srcset="assets/images/coffret-anniversaire-640.webp 640w, assets/images/coffret-anniversaire-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Anniversaire fermé par un ruban rouge, avec une carte manuscrite glissée sous le nœud">
-        <div>
-          <h2>Coffret Anniversaire</h2>
-          <p class="pour-qui">Le plus grand des cinq. Ruban rouge à la place de la ficelle, et votre message recopié à la main sur la carte.</p>
-          <p class="prix">45,00&nbsp;€</p>
-        </div>
-        <ul class="contenu">
-          <li><span>Confiture figue-noix<span class="producteur">Le Verger des Aulnes</span></span><span>250 g</span></li>
-          <li><span>Confiture de fraise<span class="producteur">Le Verger des Aulnes</span></span><span>250 g</span></li>
-          <li><span>Pâte à tartiner noisette<span class="producteur">La Noisetterie Viguier</span></span><span>200 g</span></li>
-          <li><span>Sablés au beurre salé<span class="producteur">Biscuiterie Marteau</span></span><span>150 g</span></li>
-          <li><span>Thé vert au jasmin<span class="producteur">Comptoir Kerbrat</span></span><span>50 g</span></li>
-          <li><span>Infusion fruits rouges <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr><span class="producteur">Comptoir Kerbrat</span></span><span>40 g</span></li>
-          <li class="hors-produit"><span>Carte écrite à la main et ruban</span><span>offerts</span></li>
-        </ul>
-      </article>
+        <article class="coffret" id="dejeuner">
+          <img
+            src="assets/images/coffret-dejeuner-1280.webp"
+            srcset="
+              assets/images/coffret-dejeuner-640.webp   640w,
+              assets/images/coffret-dejeuner-1280.webp 1280w
+            "
+            sizes="(max-width: 720px) 100vw, 15rem"
+            width="1280"
+            height="698"
+            loading="lazy"
+            decoding="async"
+            alt="Coffret Déjeuner&nbsp;: bocal de lentilles, tartinade de poivrons, bouteilles d’huile de noix et de vinaigre"
+          >
+          <div>
+            <h2>Coffret Déjeuner</h2>
+            <p class="pour-qui">
+              Un repas complet pour deux, sans passer par la cuisine. Ou presque.
+            </p>
+            <p class="prix">39,00&nbsp;€</p>
+          </div>
+          <ul class="contenu">
+            <li>
+              <span
+                >Lentilles vertes mijotées aux légumes
+                <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr
+                ><span class="producteur">Ferme Chaumette</span></span
+              ><span>380 g</span>
+            </li>
+            <li>
+              <span
+                >Tartinade de poivrons grillés<span class="producteur">Ferme Chaumette</span></span
+              ><span>180 g</span>
+            </li>
+            <li>
+              <span
+                >Huile de noix pressée à froid<span class="producteur"
+                  >Moulin de la Brèche</span
+                ></span
+              ><span>25 cl</span>
+            </li>
+            <li>
+              <span>Vinaigre de cidre<span class="producteur">Moulin de la Brèche</span></span
+              ><span>25 cl</span>
+            </li>
+            <li>
+              <span
+                >Mélange d’épices «&nbsp;Cinq baies&nbsp;»<span class="producteur"
+                  >Comptoir Kerbrat</span
+                ></span
+              ><span>40 g</span>
+            </li>
+          </ul>
+        </article>
 
-      <article class="coffret" id="surprise">
-        <img src="assets/images/coffret-surprise-1280.webp" srcset="assets/images/coffret-surprise-640.webp 640w, assets/images/coffret-surprise-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Surprise fermé, ficelle nouée, une étiquette kraft marquée d’un point d’interrogation">
-        <div>
-          <h2>Coffret Surprise</h2>
-          <p class="pour-qui">Je choisis, vous ouvrez. Le contenu change chaque mois, selon ce que les producteurs ont de meilleur.</p>
-          <p class="prix">34,00&nbsp;€</p>
-        </div>
-        <ul class="contenu">
-          <li><span>Un produit salé</span><span>?</span></li>
-          <li><span>Un produit sucré</span><span>?</span></li>
-          <li><span>Une boisson chaude</span><span>?</span></li>
-          <li><span>Trois produits que je garde secrets</span><span>?</span></li>
-          <li class="hors-produit"><span>Promis&nbsp;: au moins 3 produits bio sur 6</span><span></span></li>
-        </ul>
-      </article>
+        <article class="coffret" id="gouter">
+          <img
+            src="assets/images/coffret-gouter-1280.webp"
+            srcset="
+              assets/images/coffret-gouter-640.webp   640w,
+              assets/images/coffret-gouter-1280.webp 1280w
+            "
+            sizes="(max-width: 720px) 100vw, 45vw"
+            width="1280"
+            height="698"
+            loading="lazy"
+            decoding="async"
+            alt="Coffret Goûter&nbsp;: pâte à tartiner, sablés et confiture de fraise dans de la frisure kraft"
+          >
+          <div>
+            <h2>Coffret Goûter</h2>
+            <p class="pour-qui">
+              Pour le mercredi après-midi. Les enfants le vident en premier, les parents finissent
+              la confiture.
+            </p>
+            <p class="prix">24,00&nbsp;€</p>
+          </div>
+          <ul class="contenu">
+            <li>
+              <span
+                >Pâte à tartiner noisette<span class="producteur"
+                  >La Noisetterie Viguier</span
+                ></span
+              ><span>200 g</span>
+            </li>
+            <li>
+              <span>Sablés au beurre salé<span class="producteur">Biscuiterie Marteau</span></span
+              ><span>150 g</span>
+            </li>
+            <li>
+              <span>Confiture de fraise<span class="producteur">Le Verger des Aulnes</span></span
+              ><span>250 g</span>
+            </li>
+            <li>
+              <span
+                >Infusion fruits rouges
+                <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr
+                ><span class="producteur">Comptoir Kerbrat</span></span
+              ><span>40 g</span>
+            </li>
+          </ul>
+        </article>
 
-    </div>
+        <article class="coffret" id="anniversaire">
+          <img
+            src="assets/images/coffret-anniversaire-1280.webp"
+            srcset="
+              assets/images/coffret-anniversaire-640.webp   640w,
+              assets/images/coffret-anniversaire-1280.webp 1280w
+            "
+            sizes="(max-width: 720px) 100vw, 15rem"
+            width="1280"
+            height="698"
+            loading="lazy"
+            decoding="async"
+            alt="Coffret Anniversaire fermé par un ruban rouge, avec une carte manuscrite glissée sous le nœud"
+          >
+          <div>
+            <h2>Coffret Anniversaire</h2>
+            <p class="pour-qui">
+              Le plus grand des cinq. Ruban rouge à la place de la ficelle, et votre message recopié
+              à la main sur la carte.
+            </p>
+            <p class="prix">45,00&nbsp;€</p>
+          </div>
+          <ul class="contenu">
+            <li>
+              <span>Confiture figue-noix<span class="producteur">Le Verger des Aulnes</span></span
+              ><span>250 g</span>
+            </li>
+            <li>
+              <span>Confiture de fraise<span class="producteur">Le Verger des Aulnes</span></span
+              ><span>250 g</span>
+            </li>
+            <li>
+              <span
+                >Pâte à tartiner noisette<span class="producteur"
+                  >La Noisetterie Viguier</span
+                ></span
+              ><span>200 g</span>
+            </li>
+            <li>
+              <span>Sablés au beurre salé<span class="producteur">Biscuiterie Marteau</span></span
+              ><span>150 g</span>
+            </li>
+            <li>
+              <span>Thé vert au jasmin<span class="producteur">Comptoir Kerbrat</span></span
+              ><span>50 g</span>
+            </li>
+            <li>
+              <span
+                >Infusion fruits rouges
+                <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr
+                ><span class="producteur">Comptoir Kerbrat</span></span
+              ><span>40 g</span>
+            </li>
+            <li class="hors-produit">
+              <span>Carte écrite à la main et ruban</span><span>offerts</span>
+            </li>
+          </ul>
+        </article>
 
-    <section class="video">
-      <div class="video-cadre">
-        <video controls muted preload="none" poster="assets/images/video-apercu.webp">
-          <source src="assets/videos/preparation-coffret.mp4" type="video/mp4">
-          Votre navigateur ne peut pas lire cette vidéo.
-        </video>
-        <div>
-          <h2>De la table au carton</h2>
-          <p>Chaque commande est emballée à la main avant de partir&nbsp;: le coffret protégé, glissé dans son carton d’expédition, puis l’étiquette Colissimo.</p>
-        </div>
+        <article class="coffret" id="surprise">
+          <img
+            src="assets/images/coffret-surprise-1280.webp"
+            srcset="
+              assets/images/coffret-surprise-640.webp   640w,
+              assets/images/coffret-surprise-1280.webp 1280w
+            "
+            sizes="(max-width: 720px) 100vw, 15rem"
+            width="1280"
+            height="698"
+            loading="lazy"
+            decoding="async"
+            alt="Coffret Surprise fermé, ficelle nouée, une étiquette kraft marquée d’un point d’interrogation"
+          >
+          <div>
+            <h2>Coffret Surprise</h2>
+            <p class="pour-qui">
+              Je choisis, vous ouvrez. Le contenu change chaque mois, selon ce que les producteurs
+              ont de meilleur.
+            </p>
+            <p class="prix">34,00&nbsp;€</p>
+          </div>
+          <ul class="contenu">
+            <li><span>Un produit salé</span><span>?</span></li>
+            <li><span>Un produit sucré</span><span>?</span></li>
+            <li><span>Une boisson chaude</span><span>?</span></li>
+            <li><span>Trois produits que je garde secrets</span><span>?</span></li>
+            <li class="hors-produit">
+              <span>Promis&nbsp;: au moins 3 produits bio sur 6</span><span></span>
+            </li>
+          </ul>
+        </article>
       </div>
-    </section>
 
-    <section class="tableau">
-      <h2>Les coffrets côte à côte</h2>
-      <div class="defilement">
-        <table>
-          <caption>Récapitulatif pour choisir rapidement</caption>
-          <thead>
-            <tr>
-              <th scope="col">Coffret</th>
-              <th scope="col" class="nombre">Produits</th>
-              <th scope="col" class="nombre">Dont bio</th>
-              <th scope="col">Idéal pour</th>
-              <th scope="col" class="nombre">Prix</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row"><a href="#petit-dejeuner">Petit Déjeuner</a></th>
-              <td class="nombre">5</td>
-              <td class="nombre">1</td>
-              <td>un réveil sans courses à faire</td>
-              <td class="nombre">29,00&nbsp;€</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="#dejeuner">Déjeuner</a></th>
-              <td class="nombre">5</td>
-              <td class="nombre">1</td>
-              <td>un repas pour deux</td>
-              <td class="nombre">39,00&nbsp;€</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="#gouter">Goûter</a></th>
-              <td class="nombre">4</td>
-              <td class="nombre">1</td>
-              <td>les enfants, le mercredi</td>
-              <td class="nombre">24,00&nbsp;€</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="#anniversaire">Anniversaire</a></th>
-              <td class="nombre">6</td>
-              <td class="nombre">1</td>
-              <td>offrir, carte et ruban compris</td>
-              <td class="nombre">45,00&nbsp;€</td>
-            </tr>
-            <tr>
-              <th scope="row"><a href="#surprise">Surprise</a></th>
-              <td class="nombre">6</td>
-              <td class="nombre">3 min.</td>
-              <td>se laisser faire</td>
-              <td class="nombre">34,00&nbsp;€</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+      <section class="video">
+        <div class="video-cadre">
+          <video controls muted preload="none" poster="assets/images/video-apercu.webp">
+            <source src="assets/videos/preparation-coffret.mp4" type="video/mp4" >
+            Votre navigateur ne peut pas lire cette vidéo.
+          </video>
+          <div>
+            <h2>De la table au carton</h2>
+            <p>
+              Chaque commande est emballée à la main avant de partir&nbsp;: le coffret protégé,
+              glissé dans son carton d’expédition, puis l’étiquette Colissimo.
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <section class="commande" id="commander">
-      <div class="bon">
-        <h2>Bon de commande</h2>
-        <p>Remplissez ce bon, je vous réponds par e-mail sous 24&nbsp;h avec le récapitulatif et le lien de paiement.</p>
-        <form name="commande" action="merci.html" method="get">
-          <div class="champ">
-            <label for="coffret">Coffret</label>
-            <select id="coffret" name="coffret">
-              <option value="petit-dejeuner">Petit Déjeuner (29&nbsp;€)</option>
-              <option value="dejeuner">Déjeuner (39&nbsp;€)</option>
-              <option value="gouter">Goûter (24&nbsp;€)</option>
-              <option value="anniversaire">Anniversaire (45&nbsp;€)</option>
-              <option value="surprise">Surprise (34&nbsp;€)</option>
-            </select>
-          </div>
-          <div class="champ">
-            <label for="quantite">Quantité</label>
-            <input type="number" id="quantite" name="quantite" min="1" max="10" value="1">
-          </div>
-          <div class="champ champ-large">
-            <label for="nom">Votre nom</label>
-            <input type="text" id="nom" name="nom" autocomplete="name" required>
-          </div>
-          <div class="champ champ-large">
-            <label for="email">Votre e-mail</label>
-            <input type="email" id="email" name="email" autocomplete="email" required>
-          </div>
-          <div class="champ champ-large">
-            <label for="message">Le mot pour la carte (facultatif)</label>
-            <textarea id="message" name="message" rows="3" maxlength="200" placeholder="Joyeux anniversaire Paul, on se voit dimanche&nbsp;!"></textarea>
-          </div>
-          <button type="submit">Envoyer ma commande</button>
-          <p class="note-bon">Vos coordonnées servent uniquement à traiter votre commande et ne sont jamais transmises à des tiers. Maquette&nbsp;: ce bouton mène à la page de confirmation, le formulaire n’est pas encore relié à une boîte mail.</p>
-        </form>
-      </div>
-    </section>
+      <section class="tableau">
+        <h2>Les coffrets côte à côte</h2>
+        <div class="defilement">
+          <table>
+            <caption>
+              Récapitulatif pour choisir rapidement
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Coffret</th>
+                <th scope="col" class="nombre">Produits</th>
+                <th scope="col" class="nombre">Dont bio</th>
+                <th scope="col">Idéal pour</th>
+                <th scope="col" class="nombre">Prix</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><a href="#petit-dejeuner">Petit Déjeuner</a></th>
+                <td class="nombre">5</td>
+                <td class="nombre">1</td>
+                <td>un réveil sans courses à faire</td>
+                <td class="nombre">29,00&nbsp;€</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#dejeuner">Déjeuner</a></th>
+                <td class="nombre">5</td>
+                <td class="nombre">1</td>
+                <td>un repas pour deux</td>
+                <td class="nombre">39,00&nbsp;€</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#gouter">Goûter</a></th>
+                <td class="nombre">4</td>
+                <td class="nombre">1</td>
+                <td>les enfants, le mercredi</td>
+                <td class="nombre">24,00&nbsp;€</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#anniversaire">Anniversaire</a></th>
+                <td class="nombre">6</td>
+                <td class="nombre">1</td>
+                <td>offrir, carte et ruban compris</td>
+                <td class="nombre">45,00&nbsp;€</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#surprise">Surprise</a></th>
+                <td class="nombre">6</td>
+                <td class="nombre">3 min.</td>
+                <td>se laisser faire</td>
+                <td class="nombre">34,00&nbsp;€</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-  </main>
+      <section class="commande" id="commander">
+        <div class="bon">
+          <h2>Bon de commande</h2>
+          <p>
+            Remplissez ce bon, je vous réponds par e-mail sous 24&nbsp;h avec le récapitulatif et le
+            lien de paiement.
+          </p>
+          <form name="commande" action="merci.html" method="get">
+            <div class="champ">
+              <label for="coffret">Coffret</label>
+              <select id="coffret" name="coffret">
+                <option value="petit-dejeuner">Petit Déjeuner (29&nbsp;€)</option>
+                <option value="dejeuner">Déjeuner (39&nbsp;€)</option>
+                <option value="gouter">Goûter (24&nbsp;€)</option>
+                <option value="anniversaire">Anniversaire (45&nbsp;€)</option>
+                <option value="surprise">Surprise (34&nbsp;€)</option>
+              </select>
+            </div>
+            <div class="champ">
+              <label for="quantite">Quantité</label>
+              <input type="number" id="quantite" name="quantite" min="1" max="10" value="1" >
+            </div>
+            <div class="champ champ-large">
+              <label for="nom">Votre nom</label>
+              <input type="text" id="nom" name="nom" autocomplete="name" required >
+            </div>
+            <div class="champ champ-large">
+              <label for="email">Votre e-mail</label>
+              <input type="email" id="email" name="email" autocomplete="email" required >
+            </div>
+            <div class="champ champ-large">
+              <label for="message">Le mot pour la carte (facultatif)</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="3"
+                maxlength="200"
+                placeholder="Joyeux anniversaire Paul, on se voit dimanche&nbsp;!"
+              ></textarea>
+            </div>
+            <button type="submit">Envoyer ma commande</button>
+            <p class="note-bon">
+              Vos coordonnées servent uniquement à traiter votre commande et ne sont jamais
+              transmises à des tiers. Maquette&nbsp;: ce bouton mène à la page de confirmation, le
+              formulaire n’est pas encore relié à une boîte mail.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
 
-  <footer class="pied">
-    <a class="marque" href="index.html">Les Coffrets Gourmands</a>
-    <p>Charlotte Bon Goût, auto-entrepreneure.<br>Maquette réalisée en BTS SIO&nbsp;: producteurs, prix et délais fictifs.</p>
-  </footer>
-
-</body>
+    <footer class="pied">
+      <a class="marque" href="index.html">Les Coffrets Gourmands</a>
+      <p>
+        Charlotte Bon Goût, auto-entrepreneure.<br >Maquette réalisée en BTS SIO&nbsp;:
+        producteurs, prix et délais fictifs.
+      </p>
+    </footer>
+  </body>
 </html>
