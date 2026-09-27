@@ -8,9 +8,9 @@ Maquette de site en HTML/CSS (BTS SIO, bloc 1, mission 2). Trois pages reliées 
 
 Ouvrir `index.html` dans un navigateur suffit, aucune installation n'est nécessaire.
 
-## À remplacer avant de rendre
+## Médias
 
-Les images du dossier `images/` sont des visuels provisoires marqués « photo à remplacer ». Garder les mêmes noms de fichiers et les remplacer par des photos libres de droits (Unsplash, Pexels, Pixabay), en notant la source de chacune :
+Photos du dossier `images/` (source à préciser pour chacune) :
 
 | Fichier | Ce que la photo doit montrer |
 |---|---|
@@ -22,10 +22,10 @@ Les images du dossier `images/` sont des visuels provisoires marqués « photo �
 | `images/coffret-surprise.jpg` | boîte fermée avec étiquette kraft |
 | `images/verger-chaudron.jpg` | confiture qui cuit dans un chaudron en cuivre |
 
-Fichiers à ajouter (pas encore présents) :
+Sons et vidéo :
 
-- `audio/marche-samedi.mp3` : ambiance de marché, environ 1 minute (Pixabay, rubrique effets sonores)
-- `videos/preparation-coffret.mp4` : préparation d'un coffret ou emballage cadeau (Pexels ou Pixabay vidéos)
+- `audio/marche-samedi.mp3` : ambiance de marché, Pixabay (licence Pixabay, libre de droits)
+- `videos/preparation-coffret.mp4` : emballage d'une commande, Pexels n° 7855140 (licence Pexels, libre de droits), réduite en 720p
 
 ## Contenu fictif
 
