@@ -60,8 +60,8 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 ## 5. Mise en ligne
 
 - **Réseau du BTS** : dossier `coffrets gourmands` dans le répertoire personnel.
-- **Web** : hébergement gratuit Netlify, https://coffret-gourmand.netlify.app
-- **Code source** : https://github.com/svjAbdel/Coffret-gourmand
+- **Code source** : https://github.com/svjAbdel/Coffret-gourmand — dépôt public, code consultable et téléchargeable par n'importe qui.
+- **Web** : pas d'hébergement public pour ce projet. Le site est un ensemble de pages HTML statiques : il se consulte en ouvrant `index.html` dans un navigateur, sans serveur ni installation, ce qui suffit pour une démonstration.
 
 ## 6. Tests
 
@@ -78,7 +78,7 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 
 ## 7. Limites et évolutions
 
-- Le bon de commande est relié à Netlify Forms : chaque demande arrive dans l'espace Netlify de Charlotte, avec une notification par e-mail. Il ne gère ni le paiement ni le stock.
+- Le bon de commande est une maquette : il mène à une page de confirmation mais n'envoie aucune donnée. En production, il faudrait le relier à un service d'envoi de formulaires (par exemple Formspree) ou à une messagerie, sans jamais transmettre les coordonnées des clients à des tiers.
 - Pour vendre réellement : paiement en ligne (Stripe, SumUp) ou boutique clé en main (Shopify, WooCommerce).
 - Obligations légales à ajouter avant ouverture : mentions légales, conditions générales de vente, politique de confidentialité (RGPD).
 - Remplacer les photos générées par de vraies photos des coffrets de Charlotte.

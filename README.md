@@ -3,9 +3,9 @@
 Site vitrine HTML/CSS de Charlotte Bon Goût, auto-entrepreneure qui vend des coffrets gourmands.
 BTS SIO 1re année, bloc 1.
 
-**[Voir le site](https://coffret-gourmand.netlify.app)**
-
 ![Page d'accueil](docs/captures/index-ordinateur.jpg)
+
+Pas d'hébergement en ligne pour ce projet (voir `docs/mission-2.md`, section Mise en ligne) : ouvrez `index.html` en local pour voir le site, comme expliqué ci-dessous.
 
 ## Dossier
 
@@ -16,7 +16,7 @@ BTS SIO 1re année, bloc 1.
 ## Pages du site
 
 - [`index.html`](index.html) : accueil, présentation, prix des 5 coffrets
-- [`coffrets.html`](coffrets.html) : détail des coffrets, vidéo, tableau, bon de commande (Netlify Forms)
+- [`coffrets.html`](coffrets.html) : détail des coffrets, vidéo, tableau, bon de commande
 - [`producteurs.html`](producteurs.html) : les 6 producteurs partenaires
 - [`merci.html`](merci.html) : confirmation après l'envoi d'une commande
 
