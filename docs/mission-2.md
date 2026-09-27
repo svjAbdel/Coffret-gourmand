@@ -1,6 +1,6 @@
-# Dossier de projet
+# Mission 2 · Présence en ligne
 
-Les Coffrets Gourmands · BTS SIO 1re année · Bloc 1 · Mission 2
+Les Coffrets Gourmands · BTS SIO 1re année · Bloc 1
 
 ## 1. Contexte
 

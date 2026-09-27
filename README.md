@@ -1,13 +1,18 @@
 # Les Coffrets Gourmands
 
 Site vitrine HTML/CSS de Charlotte Bon Goût, auto-entrepreneure qui vend des coffrets gourmands.
-BTS SIO 1re année, bloc 1, mission 2.
+BTS SIO 1re année, bloc 1.
 
-**[Voir le site](https://coffret-gourmand.netlify.app)** · **[Dossier de projet](docs/dossier.md)** (besoins, justification des choix, tests)
+**[Voir le site](https://coffret-gourmand.netlify.app)**
 
 ![Page d'accueil](docs/captures/index-ordinateur.jpg)
 
-## Pages
+## Dossier
+
+- [`docs/mission-1.md`](docs/mission-1.md) : activité introductive, inventaire du matériel, comparatif de deux solutions à 1 200 € HT
+- [`docs/mission-2.md`](docs/mission-2.md) : recueil des besoins, arborescence, justification des choix, mise en ligne, tests, limites
+
+## Pages du site
 
 - [`index.html`](index.html) : accueil, présentation, prix des 5 coffrets
 - [`coffrets.html`](coffrets.html) : détail des coffrets, vidéo, tableau, bon de commande
