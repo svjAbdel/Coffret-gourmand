@@ -7,17 +7,19 @@
   <meta name="description" content="Le contenu détaillé des 5 coffrets&nbsp;: Petit Déjeuner, Déjeuner, Goûter, Anniversaire et Surprise. Poids, producteurs et prix.">
   <link rel="preload" href="assets/polices/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#d7c19c">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/animations.css">
 </head>
 <body>
 
   <header class="entete">
-    <a class="marque" href="index.html">Les Coffrets<br>Gourmands</a>
+    <a class="marque" href="index.html">Les Coffrets<br> Gourmands</a>
     <nav>
       <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="coffrets.html" aria-current="page">Nos coffrets</a></li>
-        <li><a href="producteurs.html">Producteurs partenaires</a></li>
+        <li><a href="producteurs.html">Producteurs</a></li>
       </ul>
     </nav>
   </header>
@@ -32,7 +34,7 @@
     <div class="liste-coffrets">
 
       <article class="coffret" id="petit-dejeuner">
-        <img src="assets/images/coffret-petit-dejeuner.jpg" alt="Coffret Petit Déjeuner&nbsp;: pot de confiture d’abricot, bocal de granola et boîte de thé noir">
+        <img src="assets/images/coffret-petit-dejeuner-1280.webp" srcset="assets/images/coffret-petit-dejeuner-640.webp 640w, assets/images/coffret-petit-dejeuner-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Petit Déjeuner&nbsp;: pot de confiture d’abricot, bocal de granola et boîte de thé noir">
         <div>
           <h2>Coffret Petit Déjeuner</h2>
           <p class="pour-qui">Pour quelqu’un qui ne saute jamais le petit déjeuner, ou qui devrait arrêter.</p>
@@ -48,7 +50,7 @@
       </article>
 
       <article class="coffret" id="dejeuner">
-        <img src="assets/images/coffret-dejeuner.jpg" alt="Coffret Déjeuner&nbsp;: bocal de lentilles, tartinade de poivrons, bouteilles d’huile de noix et de vinaigre">
+        <img src="assets/images/coffret-dejeuner-1280.webp" srcset="assets/images/coffret-dejeuner-640.webp 640w, assets/images/coffret-dejeuner-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Déjeuner&nbsp;: bocal de lentilles, tartinade de poivrons, bouteilles d’huile de noix et de vinaigre">
         <div>
           <h2>Coffret Déjeuner</h2>
           <p class="pour-qui">Un repas complet pour deux, sans passer par la cuisine. Ou presque.</p>
@@ -64,7 +66,7 @@
       </article>
 
       <article class="coffret" id="gouter">
-        <img src="assets/images/coffret-gouter.jpg" alt="Coffret Goûter&nbsp;: pâte à tartiner, sablés et confiture de fraise dans de la frisure kraft">
+        <img src="assets/images/coffret-gouter-1280.webp" srcset="assets/images/coffret-gouter-640.webp 640w, assets/images/coffret-gouter-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 45vw" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Goûter&nbsp;: pâte à tartiner, sablés et confiture de fraise dans de la frisure kraft">
         <div>
           <h2>Coffret Goûter</h2>
           <p class="pour-qui">Pour le mercredi après-midi. Les enfants le vident en premier, les parents finissent la confiture.</p>
@@ -79,7 +81,7 @@
       </article>
 
       <article class="coffret" id="anniversaire">
-        <img src="assets/images/coffret-anniversaire.jpg" alt="Coffret Anniversaire fermé par un ruban rouge, avec une carte manuscrite glissée sous le nœud">
+        <img src="assets/images/coffret-anniversaire-1280.webp" srcset="assets/images/coffret-anniversaire-640.webp 640w, assets/images/coffret-anniversaire-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Anniversaire fermé par un ruban rouge, avec une carte manuscrite glissée sous le nœud">
         <div>
           <h2>Coffret Anniversaire</h2>
           <p class="pour-qui">Le plus grand des cinq. Ruban rouge à la place de la ficelle, et votre message recopié à la main sur la carte.</p>
@@ -97,7 +99,7 @@
       </article>
 
       <article class="coffret" id="surprise">
-        <img src="assets/images/coffret-surprise.jpg" alt="Coffret Surprise fermé, ficelle nouée, une étiquette kraft marquée d’un point d’interrogation">
+        <img src="assets/images/coffret-surprise-1280.webp" srcset="assets/images/coffret-surprise-640.webp 640w, assets/images/coffret-surprise-1280.webp 1280w" sizes="(max-width: 720px) 100vw, 15rem" width="1280" height="698" loading="lazy" decoding="async" alt="Coffret Surprise fermé, ficelle nouée, une étiquette kraft marquée d’un point d’interrogation">
         <div>
           <h2>Coffret Surprise</h2>
           <p class="pour-qui">Je choisis, vous ouvrez. Le contenu change chaque mois, selon ce que les producteurs ont de meilleur.</p>
@@ -116,7 +118,7 @@
 
     <section class="video">
       <div class="video-cadre">
-        <video controls muted preload="none" poster="assets/images/video-apercu.jpg">
+        <video controls muted preload="none" poster="assets/images/video-apercu.webp">
           <source src="assets/videos/preparation-coffret.mp4" type="video/mp4">
           Votre navigateur ne peut pas lire cette vidéo.
         </video>

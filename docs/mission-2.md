@@ -52,7 +52,8 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 | Bon de commande | Choix du coffret, quantité, mot pour la carte | Transforme la visite en commande et valorise l'aspect cadeau |
 | Producteurs | Tableau nom, catégorie, horaires, produit signature | Valorise le circuit court et les partenaires |
 | Identité visuelle | Couleurs du kraft et de la cire, police au pochoir des caisses de marché | Image artisanale cohérente, différente des sites génériques |
-| Adaptation au téléphone | Mise en page qui se réorganise sur petit écran | Une grande partie des visiteurs arrive depuis un téléphone |
+| Adaptation au téléphone | Mise en page réorganisée, menu fixé en haut, photos WebP en deux tailles chargées au besoin | Une grande partie des visiteurs arrive depuis un téléphone : pages environ 3 fois plus légères, chargement rapide même en 4G |
+| Animations | Étiquette qui se balance au bout de sa ficelle, ardoise écrite à la craie, photos qui se déballent, « 3 kg » en coup de tampon, cachet de cire à la confirmation, transitions entre les pages | Fait vivre les gestes du métier de Charlotte et rend le site mémorable ; en CSS seul, sans ralentir le téléphone, et désactivées si l'appareil demande moins d'animations |
 | Accessibilité et référencement | Textes alternatifs des images, titres et descriptions de page | Site lisible par tous et mieux trouvé sur les moteurs de recherche |
 | Médias | Vidéo Pexels, son Pixabay, polices sous licence libre | Aucun risque juridique lié aux droits d'auteur |
 
@@ -66,7 +67,8 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 
 - Validation HTML (html-validate) : 0 erreur sur les 3 pages.
 - Liens et fichiers : aucun lien cassé.
-- Affichage vérifié sur ordinateur (1440 px) et téléphone (390 px).
+- Affichage vérifié sur ordinateur (1440 px) et téléphone (390 px), sans débordement horizontal.
+- Animations vérifiées en filmant le défilement de chaque page.
 
 <p>
   <img src="captures/index-telephone.jpg" alt="Accueil sur téléphone" width="200">

@@ -28,7 +28,7 @@ Télécharger le ZIP (**Code**, puis **Download ZIP**), ouvrir le dossier dans V
 
 ```
 index.html  coffrets.html  producteurs.html  merci.html
-assets/     style.css, images, audio, vidéo, polices
+assets/     style.css, animations.css, images, audio, vidéo, polices
 docs/       dossier de projet et captures
 ```
 
