@@ -49,12 +49,19 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   background-color: var(--kraft);
   color: var(--encre);
   font-family: var(--police-texte);
   font-size: 1.0625rem;
   line-height: 1.6;
+}
+
+main {
+  flex: 1;
 }
 
 img,

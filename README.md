@@ -16,8 +16,9 @@ BTS SIO 1re année, bloc 1.
 ## Pages du site
 
 - [`index.html`](index.html) : accueil, présentation, prix des 5 coffrets
-- [`coffrets.html`](coffrets.html) : détail des coffrets, vidéo, tableau, bon de commande
+- [`coffrets.html`](coffrets.html) : détail des coffrets, vidéo, tableau, bon de commande (Netlify Forms)
 - [`producteurs.html`](producteurs.html) : les 6 producteurs partenaires
+- [`merci.html`](merci.html) : confirmation après l'envoi d'une commande
 
 ## Ouvrir
 
@@ -26,7 +27,7 @@ Télécharger le ZIP (**Code**, puis **Download ZIP**), ouvrir le dossier dans V
 ## Structure
 
 ```
-index.html  coffrets.html  producteurs.html
+index.html  coffrets.html  producteurs.html  merci.html
 assets/     style.css, images, audio, vidéo, polices
 docs/       dossier de projet et captures
 ```

@@ -31,7 +31,7 @@ Charlotte Bon Goût, auto-entrepreneure, lance la vente en ligne de coffrets gou
 ## 3. Arborescence
 
 ```
-Accueil ──┬── Nos coffrets ── Bon de commande
+Accueil ──┬── Nos coffrets ── Bon de commande ── Confirmation
           └── Producteurs partenaires
 ```
 
@@ -76,7 +76,7 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 
 ## 7. Limites et évolutions
 
-- Le bon de commande n'envoie rien : il faudrait le relier à un service d'envoi de formulaires (Netlify Forms, Formspree).
+- Le bon de commande est relié à Netlify Forms : chaque demande arrive dans l'espace Netlify de Charlotte, avec une notification par e-mail. Il ne gère ni le paiement ni le stock.
 - Pour vendre réellement : paiement en ligne (Stripe, SumUp) ou boutique clé en main (Shopify, WooCommerce).
 - Obligations légales à ajouter avant ouverture : mentions légales, conditions générales de vente, politique de confidentialité (RGPD).
 - Remplacer les photos générées par de vraies photos des coffrets de Charlotte.
