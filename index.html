@@ -1,199 +1,124 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Les Coffrets Gourmands | Coffrets composés à la main</title>
-    <meta
-      name="description"
-      content="Cinq coffrets gourmands composés à la main&nbsp;: confitures, sablés, pâtes à tartiner, huiles, épices et thés de producteurs locaux."
-    >
-    <link
-      rel="preload"
-      href="assets/polices/big-shoulders-display.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    >
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" >
-    <meta name="theme-color" content="#d7c19c" >
-    <link rel="stylesheet" href="assets/style.css" >
-    <link rel="stylesheet" href="assets/animations.css" >
-  </head>
-  <body>
-    <header class="entete">
-      <a class="marque" href="index.html">Les Coffrets<br>
-        Gourmands</a>
-      <nav>
-        <ul>
-          <li><a href="index.html" aria-current="page">Accueil</a></li>
-          <li><a href="coffrets.html">Nos coffrets</a></li>
-          <li><a href="producteurs.html">Producteurs</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Coffrets gourmands composés à la main par Charlotte Bon Goût : confitures, biscuits, épices, thés et produits bio de producteurs locaux.">
+  <title>Les Coffrets Gourmands - Accueil</title>
+  <link rel="icon" href="images/favicon.svg">
+</head>
+<body>
 
-    <main>
-      <section class="ouverture">
-        <div>
-          <h1>Confiture, sablés, thé noir. On ferme la boîte, on noue la ficelle.</h1>
-          <p class="chapo">
-            Je m’appelle Charlotte Bon Goût. Je remplis chaque coffret moi-même, pot par pot, avec
-            les produits de six producteurs que je connais par leur prénom.
-          </p>
-          <a class="bouton" href="coffrets.html">Voir les 5 coffrets</a>
-        </div>
+  <!-- En-tête et menu (les mêmes sur toutes les pages) -->
+  <header>
+    <h1>Les Coffrets Gourmands</h1>
+    <p>Des coffrets composés à la main par Charlotte Bon Goût</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="coffrets.html">Nos coffrets</a></li>
+        <li><a href="producteurs.html">Producteurs partenaires</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <figure class="ouverture-photo">
-          <img
-            src="assets/images/coffret-gouter-1280.webp"
-            srcset="
-              assets/images/coffret-gouter-640.webp   640w,
-              assets/images/coffret-gouter-1280.webp 1280w
-            "
-            sizes="(max-width: 720px) 100vw, 45vw"
-            width="1280"
-            height="698"
-            fetchpriority="high"
-            decoding="async"
-            alt="Coffret Goûter ouvert&nbsp;: pot de pâte à tartiner, sachet de sablés et pot de confiture de fraise calés dans de la frisure de papier kraft"
-          >
-          <aside class="etiquette">
-            <p class="etiquette-titre">Dans le Coffret Goûter</p>
-            <ul>
-              <li><span>Pâte à tartiner noisette</span><span>200 g</span></li>
-              <li><span>Sablés au beurre salé</span><span>150 g</span></li>
-              <li><span>Confiture de fraise</span><span>250 g</span></li>
-              <li>
-                <span
-                  >Infusion fruits rouges
-                  <abbr class="bio" title="issu de l’agriculture biologique">bio</abbr></span
-                ><span>40 g</span>
-              </li>
-            </ul>
-            <p class="etiquette-prix">24,00&nbsp;€</p>
-          </aside>
-        </figure>
-      </section>
+  <main>
 
-      <section class="charlotte">
-        <img
-          src="assets/images/charlotte-ficelle-1280.webp"
-          srcset="
-            assets/images/charlotte-ficelle-640.webp   640w,
-            assets/images/charlotte-ficelle-1280.webp 1280w
-          "
-          sizes="(max-width: 720px) 100vw, 40vw"
-          width="1280"
-          height="698"
-          loading="lazy"
-          decoding="async"
-          alt="Les mains de Charlotte nouant une ficelle en coton autour d’une boîte en carton kraft"
-        >
-        <div>
-          <h2>Une seule personne derrière chaque boîte</h2>
-          <p>
-            Avant d’en faire mon métier, je préparais déjà ces paniers pour mes proches&nbsp;: un
-            tour au marché le samedi, trois ou quatre arrêts chez les producteurs du coin, et une
-            boîte à offrir le soir même.
-          </p>
-          <p>
-            Aujourd’hui c’est la même chose, en un peu plus grand. Je goûte tout avant de le mettre
-            dans un coffret. Si je ne le rachèterais pas pour ma propre cuisine, il n’y entre pas.
-          </p>
-          <p>
-            Vous voulez savoir qui fait vos confitures&nbsp;? Leurs noms, leurs horaires et leurs
-            produits sont sur la page <a href="producteurs.html">Producteurs partenaires</a>.
-          </p>
-
-          <figure class="son">
-            <figcaption>Le marché du samedi matin, là où je retrouve mes producteurs</figcaption>
-            <audio controls loop preload="none">
-              <source src="assets/audio/marche-samedi.mp3" type="audio/mpeg" >
-              Votre navigateur ne peut pas lire ce son.
-            </audio>
-          </figure>
-        </div>
-      </section>
-
-      <section class="ardoise">
-        <div>
-          <h2>L’ardoise</h2>
-          <p class="ardoise-intro">
-            Cinq coffrets, cinq moments de la journée ou de l’année. Cliquez sur un nom pour voir
-            tout ce qu’il y a dedans.
-          </p>
-          <a class="bouton bouton-clair" href="coffrets.html#commander">Commander un coffret</a>
-        </div>
-        <ul class="carte-prix">
-          <li>
-            <a href="coffrets.html#petit-dejeuner">
-              <span class="nom">Petit Déjeuner</span><span class="points"></span
-              ><span class="prix">29&nbsp;€</span>
-              <span class="detail">confiture d’abricot, granola bio, thé noir, sablés</span>
-            </a>
-          </li>
-          <li>
-            <a href="coffrets.html#dejeuner">
-              <span class="nom">Déjeuner</span><span class="points"></span
-              ><span class="prix">39&nbsp;€</span>
-              <span class="detail"
-                >lentilles mijotées, tartinade de poivrons, huile de noix, vinaigre de cidre</span
-              >
-            </a>
-          </li>
-          <li>
-            <a href="coffrets.html#gouter">
-              <span class="nom">Goûter</span><span class="points"></span
-              ><span class="prix">24&nbsp;€</span>
-              <span class="detail"
-                >pâte à tartiner, sablés au beurre salé, confiture de fraise</span
-              >
-            </a>
-          </li>
-          <li>
-            <a href="coffrets.html#anniversaire">
-              <span class="nom">Anniversaire</span><span class="points"></span
-              ><span class="prix">45&nbsp;€</span>
-              <span class="detail">six produits, un ruban rouge et une carte écrite à la main</span>
-            </a>
-          </li>
-          <li>
-            <a href="coffrets.html#surprise">
-              <span class="nom">Surprise</span><span class="points"></span
-              ><span class="prix">34&nbsp;€</span>
-              <span class="detail">six produits de saison, je choisis, vous ouvrez</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <dl class="pratique">
-        <div>
-          <dt>Préparation</dt>
-          <dd>Sous 3 jours ouvrés, à la main.</dd>
-        </div>
-        <div>
-          <dt>Livraison</dt>
-          <dd>Colissimo, 6,90&nbsp;€. Offerte dès 60&nbsp;€.</dd>
-        </div>
-        <div>
-          <dt>La carte</dt>
-          <dd>Votre message, recopié à la main. Offert.</dd>
-        </div>
-        <div>
-          <dt>Emballage</dt>
-          <dd>Carton kraft, frisure de papier, ficelle en coton. Zéro plastique.</dd>
-        </div>
-      </dl>
-    </main>
-
-    <footer class="pied">
-      <a class="marque" href="index.html">Les Coffrets Gourmands</a>
+    <!-- Présentation -->
+    <section>
+      <h2>Confiture, sablés, thé noir : on ferme la boîte et on noue la ficelle</h2>
       <p>
-        Charlotte Bon Goût, auto-entrepreneure.<br >Maquette réalisée en BTS SIO&nbsp;:
-        producteurs, prix et délais fictifs.
+        Je m'appelle Charlotte Bon Goût. Je remplis chaque coffret moi-même, pot par pot,
+        avec les produits de six producteurs que je connais par leur prénom.
       </p>
-    </footer>
-  </body>
+      <img src="images/coffret-gouter.webp" alt="Coffret Goûter ouvert : pâte à tartiner, sablés, confiture de fraise et infusion" width="600">
+      <p><a href="coffrets.html">Voir les 5 coffrets</a></p>
+    </section>
+
+    <!-- Qui est Charlotte -->
+    <section>
+      <h2>Une seule personne derrière chaque boîte</h2>
+      <img src="images/charlotte-ficelle.webp" alt="Charlotte noue une ficelle autour d'une boîte en carton kraft" width="400">
+      <p>
+        Avant d'en faire mon métier, je préparais déjà ces paniers pour mes proches : un tour au
+        marché le samedi, trois ou quatre arrêts chez les producteurs du coin, et une boîte à offrir
+        le soir même.
+      </p>
+      <p>
+        Aujourd'hui c'est pareil, en un peu plus grand. Je goûte tout avant de le mettre dans un
+        coffret. Si je ne le rachèterais pas pour ma propre cuisine, il n'y entre pas.
+      </p>
+      <p>
+        Vous voulez savoir qui fait vos confitures ? Leurs noms, leurs horaires et leurs produits
+        sont sur la page <a href="producteurs.html">Producteurs partenaires</a>.
+      </p>
+
+      <p>L'ambiance du marché du samedi matin, là où je retrouve mes producteurs :</p>
+      <audio controls src="audio/marche-samedi.mp3">
+        Votre navigateur ne peut pas lire ce son.
+      </audio>
+    </section>
+
+    <!-- Prix des coffrets -->
+    <section>
+      <h2>Les 5 coffrets</h2>
+      <table>
+        <caption>Cliquez sur un coffret pour voir tout ce qu'il contient</caption>
+        <thead>
+          <tr>
+            <th scope="col">Coffret</th>
+            <th scope="col">Contenu</th>
+            <th scope="col">Prix</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="coffrets.html#petit-dejeuner">Petit Déjeuner</a></td>
+            <td>Confiture d'abricot, granola bio, thé noir, sablés</td>
+            <td>29 €</td>
+          </tr>
+          <tr>
+            <td><a href="coffrets.html#dejeuner">Déjeuner</a></td>
+            <td>Lentilles mijotées, tartinade de poivrons, huile de noix, vinaigre de cidre</td>
+            <td>39 €</td>
+          </tr>
+          <tr>
+            <td><a href="coffrets.html#gouter">Goûter</a></td>
+            <td>Pâte à tartiner, sablés au beurre salé, confiture de fraise</td>
+            <td>24 €</td>
+          </tr>
+          <tr>
+            <td><a href="coffrets.html#anniversaire">Anniversaire</a></td>
+            <td>Six produits, un ruban rouge et une carte écrite à la main</td>
+            <td>45 €</td>
+          </tr>
+          <tr>
+            <td><a href="coffrets.html#surprise">Surprise</a></td>
+            <td>Six produits de saison : je choisis, vous ouvrez</td>
+            <td>34 €</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><a href="coffrets.html#commander">Commander un coffret</a></p>
+    </section>
+
+    <!-- Informations pratiques -->
+    <section>
+      <h2>Infos pratiques</h2>
+      <ul>
+        <li><strong>Préparation :</strong> sous 3 jours ouvrés, à la main.</li>
+        <li><strong>Livraison :</strong> Colissimo, 6,90 €. Offerte dès 60 €.</li>
+        <li><strong>La carte :</strong> votre message est recopié à la main. Offert.</li>
+        <li><strong>Emballage :</strong> carton kraft, papier froissé, ficelle en coton. Zéro plastique.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Charlotte Bon Goût, auto-entrepreneure.</p>
+    <p>Maquette réalisée en BTS SIO : producteurs, prix et délais fictifs.</p>
+  </footer>
+
+</body>
 </html>

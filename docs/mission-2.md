@@ -51,11 +51,9 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 | Tableau récapitulatif | Produits, bio, usage, prix | Aide à choisir en quelques secondes |
 | Bon de commande | Choix du coffret, quantité, mot pour la carte | Transforme la visite en commande et valorise l'aspect cadeau |
 | Producteurs | Tableau nom, catégorie, horaires, produit signature | Valorise le circuit court et les partenaires |
-| Identité visuelle | Couleurs du kraft et de la cire, police au pochoir des caisses de marché | Image artisanale cohérente, différente des sites génériques |
-| Adaptation au téléphone | Mise en page réorganisée, menu fixé en haut, photos WebP en deux tailles chargées au besoin | Une grande partie des visiteurs arrive depuis un téléphone : pages environ 3 fois plus légères, chargement rapide même en 4G |
-| Animations | Étiquette qui se balance au bout de sa ficelle, ardoise écrite à la craie, photos qui se déballent, « 3 kg » en coup de tampon, cachet de cire à la confirmation, transitions entre les pages | Fait vivre les gestes du métier de Charlotte et rend le site mémorable ; en CSS seul, sans ralentir le téléphone, et désactivées si l'appareil demande moins d'animations |
+| Adaptation au téléphone | Balise viewport et images à largeur fixe, au format WebP léger | Une grande partie des visiteurs arrive depuis un téléphone : la page s'affiche à la bonne échelle et charge vite |
 | Accessibilité et référencement | Textes alternatifs des images, titres et descriptions de page | Site lisible par tous et mieux trouvé sur les moteurs de recherche |
-| Médias | Vidéo Pexels, son Pixabay, polices sous licence libre | Aucun risque juridique lié aux droits d'auteur |
+| Médias | Vidéo Pexels, son Pixabay, images libres de droits ou fournies | Aucun risque juridique lié aux droits d'auteur |
 
 ## 5. Mise en ligne
 
@@ -67,8 +65,8 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 
 - Validation HTML (html-validate) : 0 erreur sur les 3 pages.
 - Liens et fichiers : aucun lien cassé.
-- Affichage vérifié sur ordinateur (1440 px) et téléphone (390 px), sans débordement horizontal.
-- Animations vérifiées en filmant le défilement de chaque page.
+- Affichage vérifié sur ordinateur (1440 px) et téléphone (390 px).
+- Page écrite uniquement en HTML, sans CSS : la mise en forme est celle du navigateur.
 
 <p>
   <img src="captures/index-telephone.jpg" alt="Accueil sur téléphone" width="200">
@@ -81,4 +79,5 @@ Un menu identique sur les trois pages. L'accueil renvoie vers chaque coffret, et
 - Le bon de commande est une maquette : il mène à une page de confirmation mais n'envoie aucune donnée. En production, il faudrait le relier à un service d'envoi de formulaires (par exemple Formspree) ou à une messagerie, sans jamais transmettre les coordonnées des clients à des tiers.
 - Pour vendre réellement : paiement en ligne (Stripe, SumUp) ou boutique clé en main (Shopify, WooCommerce).
 - Obligations légales à ajouter avant ouverture : mentions légales, conditions générales de vente, politique de confidentialité (RGPD).
-- Remplacer les photos générées par de vraies photos des coffrets de Charlotte.
+- Ajouter une mise en forme avec du CSS dans une étape suivante, une fois le HTML maîtrisé.
+- Remplacer les photos par de vraies photos des coffrets de Charlotte.
